@@ -1,8 +1,8 @@
 def isEntered(age, name):
-    if age > 0 and age < 16:
-        print(f"Сначала нужно окончить школу\nТебе осталось учиться {16 - age}")
+    if age < 7 or age > 75:
         return False
-    if age > 75:
+    if age >= 7 and age < 16:
+        print(f"Сначала нужно окончить школу\nТебе осталось учиться {16 - age}")
         return False
     if name.lower() == "иван":
         return False
