@@ -1,7 +1,7 @@
 import math
 
 # уравнение №13
-def calculateExpression(x, y, z):
+def calculateExpression(x, y, z) -> float:
     return ((y + ((x - 1) ** (1 / 3))) ** (1 / 4)) / (abs(x - y) * ((math.sin(z) ** 2) + math.tan(z)))
 
 x = 17.421
