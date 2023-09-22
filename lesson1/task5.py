@@ -1,5 +1,5 @@
 def calculateExpression(number) -> int:
     return number + number ** 2 + number ** 3 + number ** 4 + number ** 5
 
-result = 5
-print(calculateExpression(result))
+result = calculateExpression(5)
+print()
