@@ -5,6 +5,7 @@ def isEntered(age, name) -> bool:
         print(f"Сначала нужно окончить школу\nТебе осталось учиться {16 - age}")
         return False
     if "иван" in name.lower():
+        print("К сожалению, ваше имя не подходит")
         return False
     return True
 
