@@ -1,4 +1,4 @@
-def calculateFibonacci(n, k) -> int:
+def calculateFibonacci(n: int, k: int) -> int:
     if n <= 1 or k <= 0 or k > n:
         return 0
     fibonacci = [0, 1]

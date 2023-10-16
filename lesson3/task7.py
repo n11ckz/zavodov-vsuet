@@ -1,10 +1,10 @@
-def isYearLeap(year) -> bool:
+def isYearLeap(year: int) -> bool:
     if year % 4 == 0 or year % 400 == 0:
         return True
     return False
 
 currentYear = 2023
 if isYearLeap(currentYear):
-    print(f"{currentYear} - leap year")
+    print(f"{currentYear} - високосный год")
 else:
-    print(f"{currentYear} - non-leap year")
+    print(f"{currentYear} - невисокосный год")

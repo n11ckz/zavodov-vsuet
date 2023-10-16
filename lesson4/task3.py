@@ -1,4 +1,4 @@
-def getAllOddNumbers(a, b) -> []:
+def getAllOddNumbers(a: int, b: int) -> []:
     if a <= b:
         return
     oddNumbers = []

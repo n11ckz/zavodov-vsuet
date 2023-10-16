@@ -1,4 +1,4 @@
-def calculateExpression(n) -> int:
+def calculateExpression(n: int) -> int:
     if n <= 0:
         return 0
     factorials = [1]

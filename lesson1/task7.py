@@ -1,4 +1,4 @@
-def isNumberEven(n) -> bool:
+def isNumberEven(n: int) -> bool:
     if n % 2 != 0:
         return False
     return True

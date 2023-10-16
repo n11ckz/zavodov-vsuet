@@ -1,4 +1,4 @@
-def matchCount(array) -> int:
+def matchCount(array: list) -> int:
     array = sorted(array)
     count = 0
     for i in range(len(array) - 1):

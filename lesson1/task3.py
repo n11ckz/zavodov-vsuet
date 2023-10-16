@@ -1,4 +1,4 @@
-def isEntered(age, name) -> bool:
+def isEntered(age: int, name: str) -> bool:
     if age < 7 or age > 75:
         return False
     if 7 <= age < 16:

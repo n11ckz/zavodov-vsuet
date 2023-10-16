@@ -1,4 +1,4 @@
-def calculateFactorial(n) -> int:
+def calculateFactorial(n: int) -> int:
     if n <= 0:
         return 0
     result = 1

@@ -1,7 +1,7 @@
 import math
 
 # уравнение №1
-def calculateExpression(x, y, z) -> float:
+def calculateExpression(x: float, y: float, z: float) -> float:
     return ((2 * math.cos(x - (2 / 3))) / ((1 / 2) + (math.sin(y) ** 2))) * (1 + ((z ** 2) / (3 - ((z ** 2) / 5))))
 
 x = 14.26

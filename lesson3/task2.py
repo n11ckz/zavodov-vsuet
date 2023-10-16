@@ -1,4 +1,4 @@
-def calculateAreaOfTriangle(a, b) -> float:
+def calculateAreaOfTriangle(a: float, b: float) -> float:
     return (1 / 2) * a * b
 
 A = int(input())
