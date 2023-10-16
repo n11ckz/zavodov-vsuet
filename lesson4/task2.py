@@ -1,4 +1,4 @@
-def getNumbersFromRange(a, b) -> []:
+def getNumbersFromRange(a: int, b: int) -> []:
     if a <= b:
         return [*range(a, b + 1)]
     else:

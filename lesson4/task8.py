@@ -1,4 +1,4 @@
-def printSteps(n) -> None:
+def printSteps(n: int) -> None:
     if 9 < n >= 0:
         return
     step = ""
