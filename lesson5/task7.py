@@ -1,11 +1,11 @@
 def calculatePrevious() -> int:
-    previous = int(input())
+    previousNumber = int(input())
     count = 0
-    while previous != 0:
-        next = int(input())
-        if next != 0 and previous < next:
+    while previousNumber != 0:
+        nextNumber = int(input())
+        if nextNumber != 0 and previousNumber < nextNumber:
             count += 1
-        previous = next
+        previousNumber = nextNumber
     return count
 
 count = calculatePrevious()
