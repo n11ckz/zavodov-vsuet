@@ -1,5 +1,5 @@
 # вариант 2
-def sortArrayBySign(array: list, isPositive: bool) -> []:
+def sortArrayBySign(array: list, isPositive: bool) -> list:
     sortedArray = []
     for i in range(len(array)):
         if array[i] >= 0 and isPositive:

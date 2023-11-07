@@ -1,4 +1,4 @@
-def createUserArray(n: int) -> []:
+def createUserArray(n: int) -> list:
     array = []
     for i in range(n):
         array.append(int(input()))
