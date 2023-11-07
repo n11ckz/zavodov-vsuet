@@ -26,9 +26,9 @@ def isMagicMatrix(array: list) -> bool:
         rowSum, columnSum = 0, 0
     return True
 
-matrix = [[2, 7, 6],
-          [9, 5, 1],
-          [4, 3, 8]]
+matrix: list = [[2, 7, 6],
+                [9, 5, 1],
+                [4, 3, 8]]
 showMatrix(matrix)
 if isMagicMatrix(matrix):
     print(f"Матрица является магическим квадратом")

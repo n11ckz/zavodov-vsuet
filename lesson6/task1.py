@@ -3,5 +3,5 @@ def replaceChars(string: str, replacedChar: str = ':', newChar: str = '%') -> No
     newString = string.replace(replacedChar, newChar)
     print(f"{newString}\n{newString.count(newChar)}")
 
-message = ".::_T:T_::."
+message: str = ".::_T:T_::."
 replaceChars(message)

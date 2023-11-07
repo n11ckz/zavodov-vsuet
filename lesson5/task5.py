@@ -6,5 +6,5 @@ def calculateLength() -> int:
         number = int(input())
     return len(numbers)
 
-length = calculateLength()
+length: int = calculateLength()
 print(length)

@@ -11,5 +11,5 @@ def getMaxNumberLength() -> int:
         currentNumber = int(input())
     return max(currentLength, maxLength)
 
-maxLength = getMaxNumberLength()
+maxLength: int = getMaxNumberLength()
 print(maxLength)

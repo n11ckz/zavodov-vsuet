@@ -4,5 +4,5 @@ def createUserArray(n: int) -> []:
         array.append(int(input()))
     return array
 
-userArray = createUserArray(int(input()))
+userArray: list = createUserArray(int(input()))
 print(userArray)

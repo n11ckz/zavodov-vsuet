@@ -6,5 +6,5 @@ def calculateAverageValue() -> float:
         number = int(input())
     return sum(numbers) / len(numbers)
 
-averageValue = calculateAverageValue()
+averageValue: float = calculateAverageValue()
 print(averageValue)

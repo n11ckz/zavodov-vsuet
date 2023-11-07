@@ -6,5 +6,5 @@ def calculateExpression(n: int) -> int:
         result += i ** 3
     return result
 
-number = calculateExpression(4)
+number: int = calculateExpression(4)
 print(number)

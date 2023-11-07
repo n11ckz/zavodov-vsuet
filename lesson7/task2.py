@@ -9,7 +9,7 @@ def sortArrayBySign(array: list, isPositive: bool) -> []:
     return sortedArray
 
 
-numbers = [-7, 6, 8, -1, 11, -3, 0, 15, 8]
-positiveNumbers = sortArrayBySign(numbers, True)
-negativeNumbers = sortArrayBySign(numbers, False)
+numbers: list = [-7, 6, 8, -1, 11, -3, 0, 15, 8]
+positiveNumbers: list = sortArrayBySign(numbers, True)
+negativeNumbers: list = sortArrayBySign(numbers, False)
 print(f"{positiveNumbers}\n{negativeNumbers}")

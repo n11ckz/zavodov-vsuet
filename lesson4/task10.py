@@ -8,5 +8,5 @@ def calculateFibonacci(n: int, k: int) -> int:
     print(fibonacci)
     return sum(fibonacci)
 
-result = calculateFibonacci(10, 3)
+result: int = calculateFibonacci(10, 3)
 print(result)

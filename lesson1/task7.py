@@ -3,7 +3,7 @@ def isNumberEven(n: int) -> bool:
         return False
     return True
 
-number = 16
+number: int = 16
 if isNumberEven(number):
     print(f"{number} - четное число")
     # последующая логика программы

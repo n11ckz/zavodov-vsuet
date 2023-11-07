@@ -1,4 +1,4 @@
-x = 18
-y = -7
+x: int = 18
+y: int = -7
 x, y = y, x
 print(x, y)

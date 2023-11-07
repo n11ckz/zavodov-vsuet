@@ -7,5 +7,5 @@ def calculateFibonacci(n: int) -> int:
     print(fibonacci)
     return sum(fibonacci)
 
-result = calculateFibonacci(15)
+result: int = calculateFibonacci(15)
 print(result)

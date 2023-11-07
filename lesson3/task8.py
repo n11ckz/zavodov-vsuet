@@ -8,5 +8,5 @@ def matchCount(array: list) -> int:
         return 0
     return count + 1
 
-numbers = [5, -1, -1]
+numbers: list = [5, -1, -1]
 print(matchCount(numbers))

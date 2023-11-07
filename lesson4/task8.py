@@ -6,5 +6,5 @@ def printSteps(n: int) -> None:
         step += f"{i}"
         print(step)
 
-stepsCount = 9
+stepsCount: int = 9
 printSteps(stepsCount)

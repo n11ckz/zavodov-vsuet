@@ -6,5 +6,5 @@ def calculateFactorial(n: int) -> int:
         result *= i
     return result
 
-number = calculateFactorial(5)
+number: int = calculateFactorial(5)
 print(number)

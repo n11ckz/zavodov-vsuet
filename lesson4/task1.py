@@ -3,5 +3,5 @@ def getNumbersFromRange(a: int, b: int) -> []:
         return
     return [*range(a, b + 1)]
 
-numbers = getNumbersFromRange(5, 15)
+numbers: list = getNumbersFromRange(5, 15)
 print(numbers)

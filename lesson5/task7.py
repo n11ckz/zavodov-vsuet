@@ -8,5 +8,5 @@ def calculatePrevious() -> int:
         previousNumber = nextNumber
     return count
 
-count = calculatePrevious()
+count: int = calculatePrevious()
 print(count)

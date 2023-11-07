@@ -1,4 +1,4 @@
 import datetime
 
-seconds = 666666
+seconds: int = 666666
 print(datetime.timedelta(seconds=seconds))

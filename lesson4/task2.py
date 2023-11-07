@@ -4,5 +4,5 @@ def getNumbersFromRange(a: int, b: int) -> []:
     else:
         return [*range(a, b - 1, -1)]
 
-numbers = getNumbersFromRange(20, 15)
+numbers: list = getNumbersFromRange(20, 15)
 print(numbers)

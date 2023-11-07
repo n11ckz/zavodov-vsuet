@@ -5,5 +5,5 @@ def getMinDivider(number: int) -> int:
         if number % i == 0:
             return i
 
-divider = getMinDivider(7)
+divider: int = getMinDivider(7)
 print(divider)

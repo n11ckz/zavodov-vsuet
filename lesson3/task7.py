@@ -3,7 +3,7 @@ def isYearLeap(year: int) -> bool:
         return True
     return False
 
-currentYear = 2023
+currentYear: int = 2023
 if isYearLeap(currentYear):
     print(f"{currentYear} - високосный год")
 else:

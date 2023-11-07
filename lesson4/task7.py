@@ -6,5 +6,5 @@ def calculateExpression(n: int) -> int:
         factorials.append(i * factorials[i - 1])
     return sum(factorials) - 1
 
-number = calculateExpression(5)
+number: int = calculateExpression(5)
 print(number)

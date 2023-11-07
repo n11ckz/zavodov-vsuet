@@ -7,5 +7,5 @@ def getAllOddNumbers(a: int, b: int) -> []:
             oddNumbers.append(i)
     return oddNumbers
 
-numbers = getAllOddNumbers(20, 10)
+numbers: list = getAllOddNumbers(20, 10)
 print(numbers)

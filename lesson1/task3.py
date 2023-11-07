@@ -9,8 +9,8 @@ def isEntered(age: int, name: str) -> bool:
         return False
     return True
 
-age = int(input())
-name = input()
+age: int = int(input())
+name: str = input()
 if isEntered(age, name):
     print("Поздравляем вы поступили в ВГУИТ")
     # последующая логика программы

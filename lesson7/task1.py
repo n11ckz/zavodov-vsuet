@@ -5,5 +5,5 @@ def createUserArray(N: int) -> []:
         array.append(int(input()))
     return array
 
-userArray = createUserArray(5)
+userArray: list = createUserArray(5)
 print(userArray.index(min(userArray)))
