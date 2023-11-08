@@ -1,6 +1,8 @@
 def getMaxNumberLength() -> int:
-    currentLength = maxLength = previousNumber = 0
-    currentNumber = int(input())
+    currentLength: int = 0
+    maxLength: int = 0
+    previousNumber: int = 0
+    currentNumber: int = int(input())
     while currentNumber != 0:
         if currentNumber == previousNumber:
             currentLength += 1

@@ -1,6 +1,6 @@
 def matchCount(array: list) -> int:
     array = sorted(array)
-    count = 0
+    count: int = 0
     for i in range(len(array) - 1):
         if array[i] == array[i + 1]:
             count += 1

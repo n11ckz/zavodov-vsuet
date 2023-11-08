@@ -1,6 +1,6 @@
 # вариант 2
 def createUserArray(N: int) -> list:
-    array = []
+    array: list = []
     for i in range(N):
         array.append(int(input()))
     return array

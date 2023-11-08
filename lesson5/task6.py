@@ -1,6 +1,6 @@
 def calculateAverageValue() -> float:
-    numbers = []
-    number = int(input())
+    numbers: list = []
+    number: int = int(input())
     while number != 0:
         numbers.append(number)
         number = int(input())

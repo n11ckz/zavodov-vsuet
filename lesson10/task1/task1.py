@@ -15,7 +15,7 @@ def writeResultInFile(filePath: str, result: str) -> None:
     file.close()
 
 def isSquareMatrix(array: list) -> bool:
-    lengthToCompare = len(array)
+    lengthToCompare: int = len(array)
     for i in range(len(array)):
         if len(array[i]) != lengthToCompare:
             return False
@@ -24,15 +24,15 @@ def isSquareMatrix(array: list) -> bool:
 def isMagicMatrix(array: list) -> bool:
     if not isSquareMatrix(array):
         return False
-    sumToCompare = sum(array[0])
-    rowSum, columnSum = 0, 0
+    sumToCompare: int = sum(array[0])
+    columnSum: int = 0
     for i in range(len(array)):
-        rowSum = sum(array[i])
+        rowSum: int = sum(array[i])
         for j in range(len(array[i])):
             columnSum += array[j][i]
         if (rowSum != sumToCompare) or (columnSum != sumToCompare):
             return False
-        rowSum, columnSum = 0, 0
+        columnSum = 0
     return True
 
 matrix: list = getMatrixFromFile("input.txt")

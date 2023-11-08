@@ -1,5 +1,5 @@
 def createUserArray(n: int) -> list:
-    array = []
+    array: list = []
     for i in range(n):
         array.append(int(input()))
     return array

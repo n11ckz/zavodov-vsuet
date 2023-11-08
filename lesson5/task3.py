@@ -1,6 +1,6 @@
 def showPowerOfNumber(number: int) -> None:
-    count = 0
-    power = 1
+    count: int = 0
+    power: int = 1
     while power * 2 < number:
         count += 1
         power *= 2

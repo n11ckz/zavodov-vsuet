@@ -1,6 +1,6 @@
 def calculatePrevious() -> int:
-    previousNumber = int(input())
-    count = 0
+    previousNumber: int = int(input())
+    count: int = 0
     while previousNumber != 0:
         nextNumber = int(input())
         if nextNumber != 0 and previousNumber < nextNumber:

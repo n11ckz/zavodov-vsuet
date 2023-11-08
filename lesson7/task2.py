@@ -1,6 +1,6 @@
 # вариант 2
 def sortArrayBySign(array: list, isPositive: bool) -> list:
-    sortedArray = []
+    sortedArray: list = []
     for i in range(len(array)):
         if array[i] >= 0 and isPositive:
             sortedArray.append(array[i])
