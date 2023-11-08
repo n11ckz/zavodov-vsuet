@@ -35,7 +35,7 @@ def isMagicMatrix(array: list) -> bool:
         rowSum, columnSum = 0, 0
     return True
 
-matrix = getMatrixFromFile("input.txt")
+matrix: list = getMatrixFromFile("input.txt")
 if isMagicMatrix(matrix):
     writeResultInFile("output.txt", "Матрица является магическим квадратом")
 else:
