@@ -2,7 +2,7 @@ import tkinter
 import requests
 import json
 
-def clicked():
+def clicked() -> None:
     userDataDictionary: dict = getDictionaryUserData(text.get())
     newUserDataDictionary: dict = createNewDictionary(userDataDictionary)
     createJsonFile(newUserDataDictionary)
