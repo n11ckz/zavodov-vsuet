@@ -23,7 +23,7 @@ def createNewDictionary(userDictionary: dict) -> dict:
         "url": ""
     }
     for i in templateDictionary.keys():
-        #templateDictionary[i] = userDictionary[i]
+        templateDictionary[i] = userDictionary[i]
     return templateDictionary
 
 def createJsonFile(dictionary: dict) -> None:
