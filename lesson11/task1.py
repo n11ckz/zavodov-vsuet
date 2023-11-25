@@ -2,7 +2,7 @@ import tkinter
 import requests
 import json
 
-def clicked() -> None:
+def click() -> None:
     userDataDictionary: dict = getDictionaryUserData(text.get())
     newUserDataDictionary: dict = createNewDictionary(userDataDictionary)
     createJsonFile(newUserDataDictionary)
@@ -36,5 +36,5 @@ root.title("Get JSON from Github API")
 tkinter.Label(root, text="Введите имя пользователя:").pack()
 text = tkinter.Entry(root, width=20)
 text.pack(pady=2)
-tkinter.Button(root, text="Получить JSON файл", command=clicked).pack(pady=2)
+tkinter.Button(root, text="Получить JSON файл", command=click).pack(pady=2)
 root.mainloop()
